@@ -3,17 +3,15 @@
   "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "wristgame",
   "compatibility_date": "2026-11-11",
-
   "assets": {
     "directory": "./dist",
     "not_found_handling": "single-page-application"
   },
-
   "d1_databases": [
     {
       "binding": "DB",
-      "database_name": "wristgame-db",
-      "database_id": "15509238-d1d8-443d-836c-d4dc35a8094b"
+      "database_name": "wrist-game",
+      "database_id": "6084e29b-6c88-4448-9fc4-440b4e72c655"
     }
   ]
 }
