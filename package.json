@@ -1,0 +1,36 @@
+{
+  "name": "wristgame",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "npm run check && tsc --noEmit && vite build",
+    "preview": "vite preview --host 0.0.0.0 --port 4173",
+    "typecheck": "tsc --noEmit",
+    "check": "node scripts/check-products.mjs && node scripts/check-config.mjs && node scripts/check-secrets.mjs",
+    "test": "node scripts/test-store.mjs",
+    "export:catalogue": "node scripts/export-catalogue.mjs",
+    "images": "node scripts/make-images.mjs"
+  },
+  "dependencies": {
+    "@fontsource-variable/cinzel": "^5.1.0",
+    "@fontsource-variable/jost": "^5.1.0",
+    "@fontsource/cormorant-garamond": "^5.1.0",
+    "@react-three/drei": "^9.122.0",
+    "@react-three/fiber": "^8.18.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.28.0",
+    "three": "^0.170.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@types/three": "^0.170.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "sharp": "^0.33.5",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11"
+  }
+}

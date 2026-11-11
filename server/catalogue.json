@@ -1,0 +1,36 @@
+{
+  "generatedFrom": "src/data/products.ts",
+  "currency": "BDT",
+  "demoPrices": true,
+  "maxPerOrder": 10,
+  "products": [
+    {
+      "id": "WG-001",
+      "name": "Classic Gold Watch",
+      "price": 2500,
+      "stock": 10,
+      "available": true
+    },
+    {
+      "id": "WG-002",
+      "name": "Midnight Black Watch",
+      "price": 1500,
+      "stock": 8,
+      "available": true
+    },
+    {
+      "id": "WG-003",
+      "name": "Silver Steel Watch",
+      "price": 2000,
+      "stock": 3,
+      "available": true
+    },
+    {
+      "id": "WG-004",
+      "name": "Royal Black Edition",
+      "price": 3000,
+      "stock": 5,
+      "available": true
+    }
+  ]
+}
